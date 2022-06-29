@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+from sense_hat import SenseHat
+sense = SenseHat()
+
+
+while
+	if event.action == "pressed":
+		direction = event.direction
+		if direction == "up":
+			sense.show_message("foo")
+
+			
+# to measure the pressure
+pressure = sense.get_pressure()
+
+# to measure the temperature
+temp = sense.get_temperature()
+
+# to measure the humidity
+humidity = sense.get_humidity()
+
+# to show a message on the LED matrix
+# sense.show_message("Hello world")
+
+# to clear the LEDs
+sense.clear()
+
+
